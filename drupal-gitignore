@@ -74,3 +74,6 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
+
+# programs
+.idea
