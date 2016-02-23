@@ -15,6 +15,7 @@ sites/*/private
 
 
 # ignore all files starting with . or ~
+.*
 ~*
 
 # ignore node dependency directories (used by grunt)
@@ -54,3 +55,14 @@ Thumbs.db
 
 # programs
 .idea
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!README.md
+!CHANGELOG.md
+!composer.json
