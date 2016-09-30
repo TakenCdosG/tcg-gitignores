@@ -1,4 +1,4 @@
-#copied from https://gist.github.com/salcode/b515f520d3f8207ecd04
+copied from https://gist.github.com/salcode/b515f520d3f8207ecd04
 
 # ignore everything in the root except the "wp-content" directory.
 /*
@@ -8,7 +8,6 @@
 # mu-plugins, plugins, and themes directories
 wp-content/*
 !wp-content/mu-plugins/
-!wp-content/plugins/
 !wp-content/themes/
 
 # ignore all mu-plugins, plugins, and themes
@@ -16,7 +15,6 @@ wp-content/*
 wp-content/mu-plugins/*
 
 # ignore all files starting with . or ~
-.*
 ~*
 
 # ignore node dependency directories (used by grunt)
