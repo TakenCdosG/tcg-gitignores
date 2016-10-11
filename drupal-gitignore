@@ -12,10 +12,7 @@ sites/*/private
 # Ignore everything but the "sites" folder ( for non core developer )
 .htaccess
 
-
-
 # ignore all files starting with . or ~
-.*
 ~*
 
 # ignore node dependency directories (used by grunt)
